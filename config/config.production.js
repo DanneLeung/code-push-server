@@ -40,7 +40,7 @@ config.development = {
     // Binary files storage dir, Do not use tmpdir and it's public download dir.
     storageDir: process.env.STORAGE_DIR || __dirname + "/../storage",
     // Binary files download host address which Code Push Server listen to. the files storage in storageDir.
-    downloadUrl: process.env.LOCAL_DOWNLOAD_URL || "http://xcesys.com:3300/download",
+    downloadUrl: process.env.LOCAL_DOWNLOAD_URL || "http://106.14.226.152:3300/download",
     // public static download spacename.
     public: process.env.PUBLIC || '/download'
   },
