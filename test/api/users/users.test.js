@@ -6,7 +6,7 @@ var factory = require('../../../core/utils/factory');
 var _ = require('lodash');
 
 describe('api/users/users.test.js', function() {
-  var accountExist = 'lisong2010@gmail.com';
+  var accountExist = 'lshefan@163.com';
   var account = '522539441@qq.com';
   var registerKey = `REGISTER_CODE_${security.md5(account)}`;
   var password = '654321';

@@ -44,7 +44,7 @@ if (app.get('env') === 'development') {
   });
 }
 
-log.debug("config common.storageType value: " + _.get(config, 'common.storageType'));
+log.info("config common.storageType value: " + _.get(config, 'common.storageType'));
 
 if (_.get(config, 'common.storageType') === 'local') {
   var localStorageDir = _.get(config, 'local.storageDir');

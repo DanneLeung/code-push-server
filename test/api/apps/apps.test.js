@@ -7,7 +7,7 @@ var _ = require('lodash');
 
 describe('api/apps/apps.test.js', function() {
   var account = '522539441@qq.com';
-  var email = 'lisong2010@gmail.com';
+  var email = 'lshefan@163.com';
   var emailInvalid = 'lisong2010';
   var password = '123456';
   var authToken;
